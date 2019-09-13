@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <p>timestamp: console.log(event.timeStamp);</p>
+        </li>
+        <li><p>path: console.log(event.path);</p></li>
+        <li><p>path.__proto__: console.log(event.composedPath.__proto__);</p></li>
+        <li><p>path proto forEach scope: console.log(event.Path.__proto__.forEach.scope);</p></li>
+        <li><p>URL: console.log(event.target.URL);</p></li>
+        <li><p>attribueStyleMap size?: console.log(event.srcElement.activeElement.attributeStyleMap.size);</p></li>
+        <li><p>path 1 chrome: console.log(event.path[1].chrome);</p></li>
+        <li><p>base URI: console.log(event.target.children[0].baseURI);</p></li>
+        <li><p>nodeType: console.log(event.target.nodeType);</p></li>
+        <li><p> devuce pixel ratio: console.log(event.path[1].frames.devicePixelRatio);</p></li>
+        <li><p>script length: console.log(event.srcElement.scripts.length);</p></li>
+        <li><p>__proto__ items: console.log(event.target.applets.__proto__.item);</p></li>
+        <li><p>scroll restoration: console.log(event.path[1].history.scrollRestoration);</p></li>
+        <li><p>inner height: console.log(event.path[0].defaultView.innerHeight);</p></li>
+        <li><p>inner width: console.log(event.path[0].defaultView.innerWidth);</p></li>
+        <li><p>app version: console.log(event.path[1].navigator.appVersion);</p></li>
+        c w 
+    </ul>
+
+   
+    <script src="./assets/index.js"></script>
+</body>
+</html>
